@@ -1,1 +1,23 @@
-
+[
+  {
+    "type": "doctype",
+    "target": "Report",
+    "hint": "A Report is a Query Report for a Doctype. It has predefined fields with which the report output is presented. It has got filters and some of them mandatory as input before the Report is executed. The report is executed by clicking the Show Report Button"
+  },
+  {
+    "type": "workflow",
+    "target": "Run a Report",
+    
+    "description": "Process for executing the Report.",
+    "steps": [
+      "Open the Report Document based on the name of it as input.",
+      "Click on the 'Show Report' button in the top right corner of the Report form.",
+      "Populate all the filters fields from the dropdown menu.",
+      "The Report output is executed.",
+      "If you want Excel output of the report, Click the export option on the three dot button.",
+      "Present this on the front end.",
+      
+    ],
+    "related_doctypes": []
+  }
+]
