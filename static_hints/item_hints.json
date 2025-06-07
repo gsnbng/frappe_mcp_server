@@ -1,0 +1,7 @@
+[
+  {
+    "type": "doctype",
+    "target": "Item",
+    "hint": "An Item is a Product, Manufactured Part, Sub Assembly used in the Product or can be Consumables, Small tools or a Fixed Asset used in the Organization. It typically comes from Document Management System (DMS) with basic information. Other attributes are added based on the Organization function. Key fields include 'item_code', 'item_name', 'uom' and  'item_group'. item_group will define what type of item it is."
+  }
+]
