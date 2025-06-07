@@ -1,6 +1,6 @@
 {
   "name": "frappe-mcp-server",
-  "version": "0.2.16",
+  "version": "0.2.16.1",
   "description": "Enhanced Model Context Protocol server for Frappe Framework with comprehensive API instructions and helper tools",
   "main": "build/index.js",
   "type": "module",
@@ -42,6 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/appliedrelevance/frappe_mcp_server.git"
+    "url": "git+https://github.com/gsnbng/frappe_mcp_server.git",
+    "branch": "develop"
   }
 }
