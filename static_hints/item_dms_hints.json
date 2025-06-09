@@ -1,1 +1,7 @@
-
+[
+  {
+    "type": "doctype",
+    "target": "Item dms",
+    "hint": "A record in Item dms is a Product, Manufactured Part, Sub Assembly used in the Product or can be Consumables, Small tools or a Fixed Asset used in the Organization. This is the Document Management System (DMS) App installed along side ERPnext. Here the Designer provides basic information about the item. This is transferred to Stock module Item doctype (process of transferring Item to Production for further action by the Designer). Other attributes are added based on the Organization function in Item Doctype. Key fields include 'item_code', 'item_name', 'uom' and  'item_group'. item_group will define what type of item it is."
+  }
+]
