@@ -3,5 +3,20 @@
     "type": "doctype",
     "target": "Item dms",
     "hint": "A record in Item dms is a Product, Manufactured Part, Sub Assembly used in the Product or can be Consumables, Small tools or a Fixed Asset used in the Organization. This is the Document Management System (DMS) App installed along side ERPnext. Here the Designer provides basic information about the item. This is transferred to Stock module Item doctype (process of transferring Item to Production for further action by the Designer). Other attributes are added based on the Organization function in Item Doctype. Key fields include 'item_code', 'item_name', 'uom' and  'item_group'. item_group will define what type of item it is."
+  },
+  {
+    "type": "workflow",
+    "target": "Transfer Item from 'Item dms' to Item in Stock Module ",
+    "id": "WF-ITM-001",
+    "description": "Process for transferring item from Item dms to Production Stock module Item.",
+    "steps": [
+      "Open the New Item dms form.",
+      "Select the Item Group based on the type of Item being created.",
+      "Enter the item name and Stock unit of measure.",
+      "Click the Save button on the top right corner.",
+      "Click on the 'Trf item to Production' button in the top right corner of the Item dms form.",
+      
+    ],
+    "related_doctypes": ["Item", "Item dms"]
   }
 ]
